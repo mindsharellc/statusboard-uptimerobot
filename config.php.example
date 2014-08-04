@@ -1,0 +1,25 @@
+<?php
+// Set timezone
+date_default_timezone_set("Europe/Prague");
+
+// Configs
+$config = array(
+  'refresh_rate'  => '10000', // in milliseconds (1 second = 1000 milliseconds)
+  'now'           => 'just now',
+  'time_shortcuts'     => array(
+      'y' => 'y',
+      'm' => 'm',
+      'w' => 'w',
+      'd' => 'd',
+      'h' => 'h',
+      'i' => 'm',
+      's' => 's'
+    ),
+  'color_up'      => 'green',
+  'color_down'    => 'red',
+  'color_text'    => 'white',
+  'icon_up'       => 'fa-check-circle',
+  'icon_down'     => 'fa-exclamation-circle'
+);
+
+?>
